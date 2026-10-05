@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Skyline Residences Walkthrough",
+    "category": "real-estate",
+    "featured": true,
+    "orientation": "horizontal",
+    "thumbnail": "images/hero/hero-poster.jpg",
+    "preview": "",
+    "video": "",
+    "description": "SAMPLE ONLY. A cinematic walkthrough for a luxury apartment launch.",
+    "role": ["Video Editing", "Color Grading"],
+    "tools": ["Premiere Pro", "After Effects"],
+    "result": "",
+    "feedback": ""
+  },
+  {
+    "title": "Villa Reel",
+    "category": "real-estate",
+    "orientation": "vertical",
+    "thumbnail": "images/about/portrait-red-1.jpg",
+    "description": "SAMPLE ONLY.",
+    "role": ["Video Editing"],
+    "tools": ["Premiere Pro"]
+  },
+  {
+    "title": "Brand Campaign",
+    "category": "brand",
+    "orientation": "vertical",
+    "thumbnail": "images/lifestyle/film-jacket-1.jpg",
+    "description": "SAMPLE ONLY.",
+    "role": ["Editing", "Motion"],
+    "tools": ["After Effects"]
+  },
+  {
+    "title": "AI Concept Film",
+    "category": "ai",
+    "orientation": "vertical",
+    "thumbnail": "images/lifestyle/outfit-mirror.jpg",
+    "description": "SAMPLE ONLY.",
+    "role": ["AI Visuals"],
+    "tools": ["Higgsfield", "Google Flow"]
+  }
+]

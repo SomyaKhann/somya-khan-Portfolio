@@ -1,0 +1,26 @@
+{
+  "status": "Editing for real estate & brands",
+  "heroVideo": "",
+  "showreel": {
+    "video": "",
+    "poster": ""
+  },
+  "meet": {
+    "video": "",
+    "poster": ""
+  },
+  "contact": {
+    "email": "hello.somyakhan@gmail.com",
+    "instagram": "https://www.instagram.com/somya.khann",
+    "whatsapp": "918800747541",
+    "linkedin": "https://www.linkedin.com/in/somya-khan-a35aa6373",
+    "form": ""
+  },
+  "lifestyle": [
+    "images/lifestyle/outfit-mirror.jpg",
+    "images/lifestyle/film-jacket-1.jpg",
+    "images/about/portrait-red-2.jpg",
+    "images/lifestyle/film-jacket-2.jpg"
+  ],
+  "testimonials": []
+}

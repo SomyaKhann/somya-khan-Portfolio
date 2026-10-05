@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Somya Khan — Video Editor & AI Visual Creator</title>
+<meta name="description" content="Somya Khan edits property films, brand videos and social content, and creates cinematic AI visuals. Available for freelance projects.">
+<meta property="og:title" content="Somya Khan — Video Editor & AI Visual Creator">
+<meta property="og:description" content="I turn ideas into visuals that make people stop and watch.">
+<meta property="og:image" content="images/hero/hero-poster.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230b0909'/%3E%3Ctext x='32' y='46' font-size='40' text-anchor='middle' fill='%23d62839' font-family='serif'%3ES%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="#top" class="logo">Somya Khan</a>
+  <nav>
+    <a href="#work">Work</a><a href="#services">Services</a><a href="#about">About</a><a href="#process">Process</a>
+  </nav>
+  <a href="#contact" class="pill">Let's work together</a>
+</header>
+
+<main id="top">
+
+<!-- 01 HERO -->
+<section class="hero">
+  <h1 class="name" aria-label="Somya Khan"><span><i>Somya</i></span><span><i>Khan</i></span></h1>
+  <div class="figure">
+    <img src="images/hero/hero-poster.jpg" alt="Somya Khan walking in a leather jacket and wide-leg jeans">
+    <video id="heroVideo" muted loop playsinline hidden></video>
+  </div>
+  <div class="hero-copy">
+    <p class="welcome">Welcome to my world</p>
+    <p class="line">I turn ideas into visuals that make people stop and watch.</p>
+    <p class="role">Video Editor &bull; AI Visual Creator</p>
+    <p class="status" id="status"></p>
+  </div>
+  <a href="#showreel" class="scroll">Scroll to explore ↓</a>
+</section>
+
+<!-- 02 SHOWREEL (hidden until site.json has a video) -->
+<section id="showreel" class="reel" hidden>
+  <div class="reel-frame"><video id="reelVideo" playsinline controls preload="none"></video></div>
+  <h2>Showreel</h2>
+</section>
+
+<!-- 03 ABOUT -->
+<section id="about" class="about">
+  <div class="about-img" data-p="0.05"><img src="images/about/portrait-red-1.jpg" alt="Portrait of Somya Khan" loading="lazy"></div>
+  <div class="about-text">
+    <h2>Hi, I'm Somya.</h2>
+    <p>I'm a video editor and AI visual creator from India with 2.6+ years of hands-on experience. I cut property films, brand videos and social content, then push them further with motion, colour, sound and AI visuals.</p>
+    <p>I care about one thing: making people stop scrolling and keep watching.</p>
+    <div class="meet" id="meet" hidden>
+      <video id="meetVideo" playsinline controls preload="none"></video>
+      <span>Meet Somya</span>
+    </div>
+  </div>
+</section>
+
+<!-- 04 SERVICES -->
+<section id="services" class="services">
+  <h2>What you can hire me for</h2>
+  <ul>
+    <li><h3>Video editing</h3><p>Property reels, YouTube, brand videos and ads.</p></li>
+    <li><h3>AI visual creation</h3><p>AI-generated visuals, cinematic concepts and creative content.</p></li>
+    <li><h3>Motion &amp; design</h3><p>Motion graphics, typography, logo animation and visual effects.</p></li>
+    <li><h3>Social &amp; brand content</h3><p>Short-form content, social media and promotional videos.</p></li>
+  </ul>
+</section>
+
+<!-- 05–09 WORK (built from data/projects.json) -->
+<section id="work" class="work" hidden>
+  <h2 id="workTitle">Selected work</h2>
+  <div class="tabs" id="tabs" role="tablist"></div>
+  <p class="cat-intro" id="catIntro"></p>
+  <div class="grid" id="grid"></div>
+  <button class="more" id="more" hidden>View all</button>
+</section>
+
+<!-- 06 BEHIND THE FRAME -->
+<section class="frame">
+  <h2>Behind the frame</h2>
+  <div class="strip" id="strip"></div>
+</section>
+
+<!-- 10 PROCESS -->
+<section id="process" class="process">
+  <h2>How we'll work together</h2>
+  <ol>
+    <li><b>Understand</b><span>The brand, the audience and what the video needs to do.</span></li>
+    <li><b>Concept</b><span>The visual direction and the story.</span></li>
+    <li><b>Create</b><span>Editing, AI, motion and visual development.</span></li>
+    <li><b>Refine</b><span>Colour, sound, pacing and the small details.</span></li>
+    <li><b>Deliver</b><span>Platform-ready final content.</span></li>
+  </ol>
+</section>
+
+<!-- 11 TESTIMONIALS (hidden until real ones exist) -->
+<section id="testimonials" class="quotes" hidden>
+  <h2>Kind words</h2>
+  <div class="q-list" id="quotes"></div>
+</section>
+
+<!-- 12 TOOLS -->
+<section class="tools">
+  <h2>Tools I use</h2>
+  <p><span>Editing</span>Premiere Pro, After Effects, DaVinci Resolve</p>
+  <p><span>AI</span>ChatGPT, Google Flow, Higgsfield, Claude</p>
+</section>
+
+<!-- 14 CONTACT -->
+<section id="contact" class="contact">
+  <h2>Let's create something worth watching.</h2>
+  <p>Have a project in mind?</p>
+  <div class="btns" id="btns"></div>
+</section>
+
+</main>
+
+<footer>© <span id="yr"></span> Somya Khan</footer>
+
+<dialog id="modal">
+  <button class="x" id="close" aria-label="Close">✕</button>
+  <div class="m-media" id="mMedia"></div>
+  <div class="m-info" id="mInfo"></div>
+</dialog>
+
+<script src="js/main.js"></script>
+</body>
+</html>
